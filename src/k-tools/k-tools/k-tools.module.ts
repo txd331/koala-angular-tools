@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {KPagerCompoent} from "../componets/k-pager/k-pager.compoent";
-const components = [KPagerCompoent];
+import {KPagerComponent} from '../components/k-pager/k-pager.component';
+const components = [KPagerComponent];
 @NgModule({
   imports: [
     CommonModule

@@ -1,15 +1,16 @@
 {
   "name": "koala-angular-tools",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+    "lib:lint": "npm run lint",
+    "lib:build": "npm run lib:lint && npm run build",
     "e2e": "ng e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^6.1.0",
     "@angular/common": "^6.1.0",

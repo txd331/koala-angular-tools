@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
-import {KToolsModule} from "../../src/k-tools/k-tools/k-tools.module";
+import {KToolsModule} from '../../src/k-tools/k-tools/k-tools.module';
 
 
 @NgModule({
@@ -13,7 +13,6 @@ import {KToolsModule} from "../../src/k-tools/k-tools/k-tools.module";
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
     KToolsModule,
   ],
   providers: [],
