@@ -5,12 +5,11 @@
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
-    "downlevelIteration": true,
-    "module": "esnext",
+    "module": "es2015",
     "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "importHelpers": true,
-    "target": "es2015",
+    "target": "es5",
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -19,11 +18,23 @@
       "dom"
     ],
     "paths": {
-      "koala-angular-tools": [
-        "dist/koala-angular-tools"
+      "bold-chart-lib": [
+        "projects/bold-chart-lib"
       ],
-      "koala-angular-tools/*": [
-        "dist/koala-angular-tools/*"
+      "bold-chart-lib/*": [
+        "projects/bold-chart-lib/*"
+      ],
+      "bold-business-lib": [
+        "projects/bold-business-lib"
+      ],
+      "bold-business-lib/*": [
+        "projects/bold-business-lib/*"
+      ],
+      "bold-demo": [
+        "dist/bold-demo"
+      ],
+      "bold-demo/*": [
+        "dist/bold-demo/*"
       ]
     }
   }

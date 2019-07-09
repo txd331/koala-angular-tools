@@ -3,10 +3,10 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class KoalaAngularToolsService {
+export class TestService {
 
   constructor() { }
   getTest() {
-    return 'koalaTest20190709-001';
+    return 'test20190704-001';
   }
 }
