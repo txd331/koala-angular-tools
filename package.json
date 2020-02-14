@@ -29,7 +29,7 @@
     "path": "^0.12.7",
     "rxjs": "~6.3.3",
     "scss-bundle": "^2.5.0",
-    "yarn": "^1.15.2",
+    "yarn": "^1.22.0",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
